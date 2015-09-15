@@ -4,7 +4,7 @@ from PIL import Image
 img = Image.open("test.png")
 
 
-"""
+
 for x in xrange(160):
     count=0
     for y in xrange(70):
@@ -20,3 +20,4 @@ img.crop((44,0,81,60)).save("2.png" )
 img.crop((82,0,100,60)).save("3.png" )
 img.crop((101,0,129,60)).save("4.png" )
 img.crop((130,0,159,60)).save("5.png" )
+"""

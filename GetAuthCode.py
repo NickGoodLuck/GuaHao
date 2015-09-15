@@ -14,7 +14,7 @@ from PIL import Image
 
 
 
-img = Image.open("0001.png")
+img = Image.open("code.png")
 img = img.convert("RGBA")
 pixdata = img.load()
 for y in xrange(img.size[1]):
