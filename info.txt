@@ -26,3 +26,16 @@ http://www.zj12580.cn/regCaptcha.svl?hospitalId=957101&numId=85314099
 就诊科室：骨科
 
 就诊时间：20150917 上午 08:30 第1个序号
+
+
+http://www.zj12580.cn/regCaptcha.svl?hospitalId=957101&numId=85395795
+
+普通
+
+浙江省人民医院
+
+挂号费用：10元
+
+就诊科室：骨科
+
+就诊时间：20150918 上午 08:30 第1个序号
