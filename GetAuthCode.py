@@ -14,7 +14,7 @@ from PIL import Image
 
 
 
-img = Image.open("0000.png")
+img = Image.open("0022.png")
 img = img.convert("RGBA")
 pixdata = img.load()
 for y in xrange(img.size[1]):
@@ -29,6 +29,6 @@ for y in xrange(img.size[1]):
     for x in xrange(img.size[0]):
         if pixdata[x, y][2] > 0:
             pixdata[x, y] = (255, 255, 255, 255)
-img.save("test.png", "PNG")
-im_orig = Image.open('test.png')
+img.save("test2.png", "PNG")
+im_orig = Image.open('test2.png')
 big = im_orig.resize((1000, 500), Image.NEAREST)

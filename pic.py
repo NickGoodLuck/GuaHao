@@ -26,7 +26,7 @@ def hamming(h1, h2):
 
 if __name__ == '__main__':
 
-        im="test.png"
+        im="test2.png"
         wd="pic"
         h = avhash(im)
 
@@ -50,3 +50,6 @@ if __name__ == '__main__':
         if prog: print
         for f, ham in sorted(seq, key=lambda i: i[1]):
             print "%d\t%s" % (ham, f)
+
+
+
